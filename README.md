@@ -35,8 +35,9 @@ src/
 │   └── utils/
 ├── main.ts
 └── app.module.ts
-
-
+```
+## Structure: DDD + Clean Architecture
+```text
 src/
 ├── modules/
 │   └── user/
@@ -59,8 +60,10 @@ src/
 ├── shared/                          <-- Base classes, interfaces, config
 ├── main.ts
 └── app.module.ts
+```
 
-
+## Structure: Microservices
+```text
 /microservices-app/
 │
 ├── /services/             # All microservices live here
@@ -86,5 +89,5 @@ src/
 ├── docker-compose.yml     # Local orchestration
 ├── README.md
 └── .env                   # Global/local environment config
-
+```
 
