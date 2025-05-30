@@ -1,11 +1,13 @@
-# Architecture sample
+# Architecture Sample
 
-Struture DDD NestJS
+## Structure: DDD NestJS
+
+```text
 src/
 ├── modules/
 │   ├── user/                         <-- Bounded Context: "User"
 │   │   ├── application/             <-- Use cases (business logic orchestration)
-│   │   │   └── commands/
+│   │   │   ├── commands/
 │   │   │   └── services/
 │   │   ├── domain/                  <-- Domain layer (Entities, Interfaces, Events)
 │   │   │   ├── entities/
@@ -34,7 +36,7 @@ src/
 ├── main.ts
 └── app.module.ts
 
-DDD + Clean Architecture
+
 src/
 ├── modules/
 │   └── user/
@@ -58,7 +60,7 @@ src/
 ├── main.ts
 └── app.module.ts
 
-Mricoservice
+
 /microservices-app/
 │
 ├── /services/             # All microservices live here
