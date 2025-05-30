@@ -1,6 +1,6 @@
 # Architecture sample
 
-- Struture DDD NestJS
+Struture DDD NestJS
 src/
 ├── modules/
 │   ├── user/                         <-- Bounded Context: "User"
@@ -34,7 +34,7 @@ src/
 ├── main.ts
 └── app.module.ts
 
-- DDD + Clean Architecture
+DDD + Clean Architecture
 src/
 ├── modules/
 │   └── user/
@@ -58,7 +58,7 @@ src/
 ├── main.ts
 └── app.module.ts
 
-- Mricoservice
+Mricoservice
 /microservices-app/
 │
 ├── /services/             # All microservices live here
